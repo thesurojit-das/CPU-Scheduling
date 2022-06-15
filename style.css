@@ -1,0 +1,116 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7vh 0 0 3vh;
+  }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4vw;
+  }
+
+  h2 {
+    margin: 2vh 0 2vh 0;
+  }
+
+  .input {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: auto;
+    padding: 2vw;
+    margin-left: 2vw;
+  }
+
+  .output {
+    padding: 2vw;
+  }
+
+  #time,
+  #priority {
+    display: none;
+  }
+
+
+
+  #Solved,
+  #Reset {
+    margin-top: 3vh;
+  }
+
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+
+  th {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:hover {
+    background-color: #99CCFF;
+  }
+
+
+  @media screen and (min-width:320px) and (max-width:425px) {
+    .box{
+      width: 150vw;
+    }
+    .input{
+      width: 150vw;
+      margin-bottom: 12vw;
+    }
+    .output {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 150vw;
+    }
+    h1{
+    text-align: left;
+    margin-left: 5vw;
+  }
+  }
+  @media screen and (min-width:426px) and (max-width:768px) {
+    .box{
+      width: 100%;
+    }
+    .input{
+      width: 150vw;
+      margin-bottom: 12vw;
+    }
+    table{
+      width: 100%;
+    }
+    .output {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 150vw;
+      padding: 5vw;
+    }
+    h1{
+    text-align: center;
+  }
+  }
+
+
